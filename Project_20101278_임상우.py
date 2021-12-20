@@ -49,6 +49,3 @@ for i in range(len(title)):
     page.save("./MelonRanking.xlsx")
     print("{}위. {} - {}".format(row_num, title[i].string, name[i].text))
     row_num += 1
-
-
-openpyxl
